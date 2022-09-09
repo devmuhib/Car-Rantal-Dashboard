@@ -1,0 +1,119 @@
+.bookings {
+  margin-top: 100px;
+
+  padding: 0px 30px;
+  padding-bottom: 50px;
+}
+
+.booking__title {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.filter__widget-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+.filter__widget-01 select,
+.filter__widget-02 select {
+  border: none;
+  padding: 7px 20px;
+  border-radius: 50px;
+  background: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.car__item {
+  padding: 20px;
+  border-radius: 5px;
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.car__item-tile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.car__item-tile h3 {
+  font-size: 1.3rem;
+  color: var(--heading-color);
+  font-weight: 400;
+}
+
+.car__item-tile span i {
+  font-size: 1.3rem;
+  color: var(--small-text-color);
+  cursor: pointer;
+}
+
+.car__item-top p {
+  color: var(--small-text-color);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.car__item-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.car__bottom-left {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+.car__bottom-left p {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  color: rgba(255, 255, 255, 0.829);
+  font-weight: 300 !important;
+}
+
+.car__bottom-left p i {
+  color: var(--secondary-color);
+}
+
+.car__rent {
+  color: rgba(255, 255, 255, 0.829);
+  font-size: 1.1rem;
+}
+
+.booking__car-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.car__item-tile h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.car__item-top {
+  margin-bottom: 15px;
+}
+
+.car__img {
+  margin-bottom: 20px;
+}
+
+.car__item:nth-child(2) .car__img img,
+.car__item:nth-child(6) .car__img img,
+.car__item:nth-child(8) .car__img img {
+  width: 75%;
+}
+
+.car__item:nth-child(4) .car__img img {
+  width: 85%;
+}
